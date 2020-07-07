@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Portfolio</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+<body>
+  <!-- Create intial nav bar from bootstrap -->
+  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Heather Cooper</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling and link to other pages-->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- main body information in two columns usinng bootstrap form-->
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+      <hr>
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Name</label>
+          <input type="Name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+    <!-- main body information in 2nd column-->
+    <div class="col-md-4 sidebar">
+      <h4>Connect with me</h4>
+      <a href="https://github.com/EdenKhaos" target="_blank"><img src="assets/images/githubblue.png" alt="GitHub"
+          class="socialImage"></a>
+
+      <a href="https://www.linkedin.com/in/ravendantes/" target="_blank"><img src="assets/images/linkedinblue.png"
+          class="socialImage" alt="linkedin"></a>
+
+      </div>
+    </div>
+  </div>
+  <!-- footer-->
+  <footer>
+    Copyright &copy; 2020 Heather Cooper
+  </footer>
+</body>
+
+</html>

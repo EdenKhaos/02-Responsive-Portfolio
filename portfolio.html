@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Portfolio</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+<body>
+  <!-- Create intial nav bar from bootstrap -->
+  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Heather Cooper</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling  and link to other pages-->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- main body information in two sub-columns in the main column-->
+  <div id="main-container" class="container">
+    <div class="row"></div>
+    <div class="col-md-8"></div>
+    <div class="main-section">
+      <h1>Portfolio</h1>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="work">
+            <a href="architecture.html"> <!-- create link from image to another page (no linked pages made yet)-->
+              <img style="float: left; margin: 0px 15px 15px 0px;" height="100px" width="200px"
+              src="assets/images/Sin936.jpg" alt="Architecture" class="responsive">
+            </a>  
+            <h3>Architecture</h3>
+          </div>
+          <div class="work">
+            <a href="graphicdesign.html"> <!-- create link from image to another page (no linked pages made yet)-->
+              <img style="float: left; margin: 0px 15px 15px 0px;" height="100px" width="200px"
+              src="assets/images/Graphic Design.jpg" alt="Graphic Design" class="responsive">
+            </a>
+            <h3>Graphic Design</h3>
+          </div>
+          <div class="work">
+            <a href="marketing.html"> <!-- create link from image to another page (no linked pages made yet)-->
+              <img style="float: left; margin: 0px 15px 15px 0px;" height="100px" width="200px"
+              src="assets/images/marketing package.png" alt="Marketing Package" class="responsive">
+            </a>
+            <h3>Marketing Packages</h3>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="work">
+            <a href="photography.html"> <!-- create link from image to another page (no linked pages made yet)-->
+              <img style="float: left; margin: 0px 15px 15px 0px;" height="100px" width="175px"
+              src="assets/images/photography.jpg" alt="Photography" class="responsive">
+            </a>
+            <h3>Photography</h3>
+          </div>
+          <div class="work">
+            <a href="woodwork.html"> <!-- create link from image to another page (no linked pages made yet)-->
+              <img style="float: left; margin: 0px 15px 15px 0px;" height="100px" width="100px"
+              src="assets/images/furniture.jpg" alt="Woodwork" class="responsive">
+            </a>
+            <h3>Woodwork</h3>
+          </div>
+          <div class="work">
+            <a href="programming.html"> <!-- create link from image to another page (no linked pages made yet)-->
+              <img style="float: left; margin: 0px 15px 15px 0px;" height="100px" width="175px"
+              src="assets/images/programming.JPG" alt="Programming" class="responsive">
+            </a>
+            <h3>Programming</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main body information in 2nd column-->
+    <div class="col-md-4 sidebar">
+      <h4>Connect with me</h4>
+      <a href="https://github.com/EdenKhaos" target="_blank"><img src="assets/images/githubblue.png" alt="GitHub"
+          class="socialImage"></a>
+
+      <a href="https://www.linkedin.com/in/ravendantes/" target="_blank"><img src="assets/images/linkedinblue.png"
+          class="socialImage" alt="linkedin"></a>
+    </div>
+  </div>
+  </div>
+  <!-- footer-->
+  <footer>
+    Copyright &copy; 2020 Heather Cooper
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+body {
+  
+  background: url("images/wood_wallpaper.jpg");
+}
+.container-fluid {
+ width: 100%;
+ max-width: 960px;
+ margin: 0 auto;
+ clear: both;
+}
+hr {
+  border-top: 2px solid #0081a1;
+
+}
+.socialImage {
+ max-height: 65px;
+ max-width: 65px;
+}
+h1 {
+  color: #0081a1;
+}
+.text-wrap {
+  float: left;
+  clear: right;
+  margin: 10px;
+}
+ h3 { 
+  font-size: medium;
+  margin: 10px; 
+  clear: left; 
+ }
+.main-section {
+ float: left;
+ width: 100%;
+ max-width: 650px;
+ padding: 30px;
+ margin: 0 0 40px;
+ color: #fff;
+ background: #1c2021;
+ border: 1px solid #0081a1;
+}
+h4 {
+  color: #0081a1;
+}
+.sidebar {
+ float: right;
+ width: 100%;
+ max-width: 240px;
+ padding: 40px;
+ margin-bottom: 20px;
+ color: #fff;
+ background: #1c2021;
+ border: 1px solid #0081a1;
+}
+footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ padding: 30px 0;
+ clear: both;
+ font-size: 12px;
+ color: #fff;
+ text-align: center;
+ background: #1c2021;
+ border-top: 8px solid #0081a1;
+}
