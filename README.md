@@ -104,6 +104,7 @@ Follow psuedo code in html file (index.html)
 3.  main body information in two columns
 4.  main body information in 2nd column
 5. footer
+
 Follow psuedo code in html file (portfolio.html)
 1. Create intial nav bar from bootstrap
 2. Collect the nav links, forms, and other content for toggling and link to other page
@@ -116,6 +117,8 @@ Follow psuedo code in html file (portfolio.html)
 9. create link from image to another page (no linked pages made yet)
 10. main body information in 2nd column
 11. footer
+
+
 Follow psuedo code in html file (contact.html)
 1. Create intial nav bar from bootstrap
 2. Collect the nav links, forms, and other content for toggling and link to other pages
