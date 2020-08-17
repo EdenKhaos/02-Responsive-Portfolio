@@ -1,5 +1,4 @@
-# wk2-homework
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+# 02-Responsive-Portfolio
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
@@ -88,24 +87,24 @@ You are required to submit the following:
 
 Issues & Explanation:
 Live Site: 
-     https://EdenKhaos.github.io/wk2-homework/
+     https://edenkhaos.github.io/02-Responsive-Portfolio/
    
 Code Repo: 
-     https://github.com/EdenKhaos/wk2-homework 
+     https://github.com/EdenKhaos/02-Responsive-Portfolio
   
 Issues & Explainations:
-     https://github.com/EdenKhaos/wk2-homework/edit/master/README.md
+     https://github.com/EdenKhaos/02-Responsive-Portfolio/edit/master/README.md
 
 url validator: https://validator.w3.org/#validate_by_uri+with_options
 
-Follow psuedo code in html file (index.html)
+## Follow psuedo code in html file (index.html)
 1. Create intial nav bar from bootstrap
 2. Collect the nav links, forms, and other content for toggling and link to other pages
 3.  main body information in two columns
 4.  main body information in 2nd column
 5. footer
 
-Follow psuedo code in html file (portfolio.html)
+## Follow psuedo code in html file (portfolio.html)
 1. Create intial nav bar from bootstrap
 2. Collect the nav links, forms, and other content for toggling and link to other page
 3. main body information in two sub-columns in the main column
@@ -119,7 +118,7 @@ Follow psuedo code in html file (portfolio.html)
 11. footer
 
 
-Follow psuedo code in html file (contact.html)
+## Follow psuedo code in html file (contact.html)
 1. Create intial nav bar from bootstrap
 2. Collect the nav links, forms, and other content for toggling and link to other pages
 3. main body information in two columns usinng bootstrap form
